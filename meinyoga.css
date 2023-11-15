@@ -1,0 +1,210 @@
+/* Allgemein */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-style: normal;
+   /* background-color: bisque;*/
+    /*background-image: url(./bilder/MonsterraHD5chill.jpeg);*/
+    /*background-image: url(./bilder/MonsterraHD10.jpeg);*/
+    /*background-image: url(./bilder/MonsterraHD8.avif);*/
+    /*background-image: url(./bilder/Green.jpeg);*/
+    background-image: url(./bilder/Green2.jpeg);
+    /*background-image: url(./bilder/Green3.png);*/
+    /*background-image: url(./bilder/Green4.jpeg);*/
+    
+    background-size: cover;
+
+}
+:target {
+    scroll-margin-top: 220px;
+}
+img {
+   width: 200px; 
+   border: solid black;
+   border-radius: 5px;
+}
+h3 {
+    text-decoration: underline;
+    color: rgb(1, 67, 1);
+}
+h4 {
+    color: rgb(1, 67, 1);
+
+}
+
+/* Header */
+header {
+    /* Wie kann ich alles von der höhe mittig setzen?*/
+    /*background-color: rgb(195, 66, 66);*/
+    background-image: url(./bilder/MonsterraHD1.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 30px;
+    padding-right: 100px;
+    position: fixed;
+    width: 98vw;
+    box-sizing: border-box;
+    top: 0;
+    left: 15px;
+    
+}
+header img {
+    /* für was gilt text align und für was margin?*/
+    width: 100px;
+    object-fit: cover;
+    margin: 20px;
+
+}
+
+header h1 {
+    /*margin: center;*/
+    font-size: 70px;
+    
+    color: white;
+    text-shadow: darkgreen 2px 2px;
+    
+
+    
+}
+
+header ul {
+    /* wie kriege ich die Punkte vor der auflistung weg?*/
+    /* wie setze ich die lis in der ul auseinander?*/
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    
+    
+}
+header a {
+    border: solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: cadetblue;
+    
+}
+
+/* Main */
+p {
+    font-size: 20px;
+    background-color: white;
+    color: rgb(1, 58, 7);
+    padding: 5px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+}
+.Kurse p {
+    font-size: 18px;
+    padding: 1px; 
+}
+
+main {
+    margin-top: 160px;
+
+}
+section {
+    padding: 40px;
+
+}
+section div {
+    margin-left: 20px;
+
+}
+section p {
+    margin-left: 20px;
+}
+.rechts {
+    padding: 30px;
+    border-left: solid black;
+    width: 30%;
+}
+.sidetoside {
+    display: flex;
+
+}
+.links {
+    width: 70%;
+    
+}
+.ich div {
+    display: flex;
+    gap: 15px;
+}
+.meinyoga div {
+    display: flex;
+    gap: 15px;
+}
+main h2 {
+    text-decoration: underline;
+    font-size: 40px;
+    color: rgb(1, 67, 1);
+}
+
+td {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+.shop a {
+    font-size: 40px;
+    margin: 200px 200px;
+    padding: 50px;
+    border: solid black;
+    border-radius: 100%;
+    background-color: crimson;
+    text-decoration: none;
+}
+/* wie stelle ich die h4 und die p neben einenander? */
+.name {
+    display: flex;
+}
+
+/* Rechte Spalte */
+.rechts p {
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: left;
+    /*background-color: rgb(208, 68, 68);*/
+    background-image: url(./bilder/MonsterraHD4gelb.jpeg);
+    background-size: cover;
+    margin: 0;
+    border: solid black;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    gap: 70px;
+    
+
+}
+footer img {
+    width: 70px;
+    border-radius: 10px;
+   
+
+}
+footer p {
+    width: 250px;
+}
+
+footer h3 {
+    text-decoration: underline;
+}

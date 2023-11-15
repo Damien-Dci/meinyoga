@@ -1,0 +1,139 @@
+/* Allgemein */
+body {
+    font-style: normal;
+    background-color: bisque;
+}
+img {
+   width: 200px; 
+   border: solid black;
+   border-radius: 5px;
+}
+
+/* Header */
+header {
+    /* Wie kann ich alles von der höhe mittig setzen?*/
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(195, 66, 66);
+    border: solid black;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 30px;
+  
+
+}
+
+/* Main */
+
+main {
+    margin-left: 30px;
+
+}
+h2 {
+    font-size: 40px;
+    border-bottom: solid black;
+}
+
+h3 {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+section {
+    display: flex;
+
+}
+.mattenlinks {
+    border-right: solid black;
+    padding: 50px;
+    /* Wie mach ich die border-bottom NICHT bündig an die border-left */
+   /* border-bottom: solid black;*/
+
+}
+
+.mattenrechts {
+    padding: 30px;
+}
+
+main ul {
+    font-size: 30px;
+    width: 200px;
+    background-color: brown;
+    border: solid black;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+    list-style: none;
+    
+
+}
+main ul a li {
+    padding: none;
+    cursor: pointer;
+    color: black;
+}
+
+.back {
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+main figure {
+    display: flex;
+    gap: 50px;
+
+}
+
+
+main figure img {
+    width: 30px;
+    gap: 50px;
+    
+}
+figure img:hover {
+    transform: scale(4);
+}
+
+main li {
+        text-decoration: underline;
+        cursor: pointer;
+        margin-bottom: 10px;
+        border: solid black;
+        border-radius: 5px;
+        align-items: center;
+        background-color: cadetblue;
+        padding: 5px;
+        text-align: center;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: left;
+    background-color: rgb(208, 68, 68);
+    margin: 0;
+    border: solid black;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    gap: 70px;
+    
+
+}
+footer img {
+    width: 70px;
+    border-radius: 10px;
+   
+
+}
+footer p {
+    width: 250px;
+}
+
+footer h3 {
+    text-decoration: underline;
+}
